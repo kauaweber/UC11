@@ -2,34 +2,34 @@
 
 ## Requisitos Funcionais
 
-- Cadastro de usuários (clientes, entregadores e restaurantes)
-- Login e autenticação de usuários  
-- Cadastro e gerenciamento de restaurantes  
-- Cadastro de produtos/cardápio  
-- Busca de restaurantes e produtos  
-- Realização de pedidos  
-- Cálculo automático do valor total (produtos + taxa de entrega)  
-- Escolha da forma de pagamento (cartão, dinheiro, pix)  
-- Acompanhamento do pedido em tempo real  
-- Notificações sobre o status do pedido  
-- Cancelamento de pedidos  
-- Avaliação de restaurantes e entregadores  
-- Histórico de pedidos  
+- 01: Cadastro de usuários (clientes, entregadores e restaurantes)
+- 02: Login e autenticação de usuários  
+- 03: Cadastro e gerenciamento de restaurantes  
+- 04: Cadastro de produtos/cardápio  
+- 05: Busca de restaurantes e produtos  
+- 06: Realização de pedidos  
+- 07: Cálculo automático do valor total (produtos + taxa de entrega)  
+- 08: Escolha da forma de pagamento (cartão, dinheiro, pix)  
+- 09: Acompanhamento do pedido em tempo real  
+- 10: Notificações sobre o status do pedido  
+- 11: Cancelamento de pedidos  
+- 12: Avaliação de restaurantes e entregadores  
+- 13: Histórico de pedidos  
 
 ---
 
 ## Requisitos Não Funcionais
 
-- Interface simples e fácil de usar (usabilidade)  
-- Tempo de resposta rápido (desempenho)  
-- Sistema disponível 24h por dia (disponibilidade)  
-- Segurança dos dados dos usuários (criptografia, login seguro)  
-- Compatível com celular e computador (responsividade)  
-- Capacidade de atender muitos usuários ao mesmo tempo (escalabilidade)  
-- Backup automático dos dados  
-- Integração com APIs de pagamento (ex: Pix, cartão)  
-- Localização em tempo real (GPS)  
-- Facilidade de manutenção do sistema  
+- 01: Interface simples e fácil de usar (usabilidade)  
+- 02: Tempo de resposta rápido (desempenho)  
+- 03: Sistema disponível 24h por dia (disponibilidade)  
+- 04: Segurança dos dados dos usuários (criptografia, login seguro)  
+- 05: Compatível com celular e computador (responsividade)  
+- 06: Capacidade de atender muitos usuários ao mesmo tempo (escalabilidade)  
+- 07: Backup automático dos dados  
+- 08: Integração com APIs de pagamento (ex: Pix, cartão)  
+- 09: Localização em tempo real (GPS)  
+- 10: Facilidade de manutenção do sistema  
 
 ---
 
@@ -45,8 +45,8 @@
 
 ## Testes do Movimento de Entrega
 
-- CT06: Atualização de status → Deve mudar de "preparando" para "entregue"  
-- CT07: Atribuição de entregador → Deve vincular entregador ao pedido  
-- CT08: Rastreamento em tempo real → Deve mostrar localização correta  
-- CT09: Finalização da entrega → Deve marcar como entregue  
-- CT10: Falha na entrega → Deve registrar erro ou reentrega  
+- CT01: Atualização de status → Deve mudar de "preparando" para "entregue"  
+- CT02: Atribuição de entregador → Deve vincular entregador ao pedido  
+- CT03: Rastreamento em tempo real → Deve mostrar localização correta  
+- CT04: Finalização da entrega → Deve marcar como entregue  
+- CT05: Falha na entrega → Deve registrar erro ou reentrega  
