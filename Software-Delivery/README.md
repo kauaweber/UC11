@@ -33,5 +33,20 @@
 
 ---
 
-## Teste do cadastro de usuário
+## Testes do Cadastro de Usuário
 
+- CT01: Cadastro com dados válidos → Deve cadastrar com sucesso  
+- CT02: Cadastro com campos vazios → Deve exibir erro  
+- CT03: Cadastro com email inválido → Deve exibir erro de validação  
+- CT04: Cadastro com senha fraca → Deve exibir erro  
+- CT05: Cadastro com usuário já existente → Deve informar que já existe  
+
+---
+
+## Testes do Movimento de Entrega
+
+- CT06: Atualização de status → Deve mudar de "preparando" para "entregue"  
+- CT07: Atribuição de entregador → Deve vincular entregador ao pedido  
+- CT08: Rastreamento em tempo real → Deve mostrar localização correta  
+- CT09: Finalização da entrega → Deve marcar como entregue  
+- CT10: Falha na entrega → Deve registrar erro ou reentrega  
